@@ -1,5 +1,5 @@
 
-@import "_var";
+@import "_blue";
 
 @mixin box-shadow($shadow) {
     -webkit-box-shadow: $shadow;
@@ -14,7 +14,7 @@
 
 body {
     font: 100% "Space Mono", monospace;
-    color: #2748B3;    
+    color: $color;    
     padding: $blue;
     background-color: #000;
     background-image: radial-gradient(#fff, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(#fff, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(#fff, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
@@ -27,7 +27,7 @@ a{
     background-color: rgb(209, 209, 209);
     border: rgb(46, 46, 46) solid 1px;
     border-radius: 5px;
-    color: #6B8EFF;
+    color: $color;
     padding: $blue;
     text-decoration: none;
     text-align: center;
@@ -84,7 +84,7 @@ article {
 h1,
 h2,
 h6 {
-    color: #6B8EFF
+    color: $color;
 }
 
 h1 {
