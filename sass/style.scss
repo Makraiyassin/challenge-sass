@@ -1,4 +1,11 @@
+$paragraphe: blue;
+$width: 50%;
+
 body{
     background: black;
     color: white;
+}
+
+p{
+    color: $paragraphe;
 }
